@@ -7,3 +7,12 @@ OpenSCD and CoMPAS are both open-source tools used in the power systems industry
 - CoMPAS (Configuration Management for Power Automation Systems) builds on top of this by managing and validating those configurations across different projects and teams.
 
 In simple terms: OpenSCD lets you "draw and edit" how a digital substation should be set up, while CoMPAS helps you "organize and control" those drawings in a safe and standardized way. They work together to make designing and managing substations easier, more consistent, and less error-prone.
+
+## Main repositories provided
+
+- Contains the open-source plugins implemented for TransnetBW
+  - https://github.com/ase-compas/compas-transnetbw-plugins
+- Repository providing a preconfigured nginx reverse-proxy for CoMPAS
+  - https://github.com/ase-compas/compas-reverse-proxy
+- Repository providing a preconfigured keycloak for CoMPAS
+  - https://github.com/ase-compas/compas-keycloak
